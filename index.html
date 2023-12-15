@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Count</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lets'go Count</h1> 
+    </header>
+    <section>        
+        <div id="dados">
+            <p>Start:
+                <input type="number" name="start" id="txtstart" min="0"> <!--Caixa de Texto-->
+            </p>
+            <p>End:
+                <input type="number" name="end" id="txtend" min="0">
+            </p>
+            <p>Pass:
+                <input type="number" name="pass" id="txtpass">
+            <p>
+                <input type="button" value="count" onclick='count()'>
+            </p>
+            
+        </div>
+        <div id="res">
+            Preparing the count...
+        </div>
+    </section>
+    <footer>    
+        <p>&copy; Guideveloper</p>
+    </footer>   
+    <script src="script.js"></script> 
+</body>
+</html>
